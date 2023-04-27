@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """
 A Basic flask application
 """
@@ -10,7 +9,7 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
-def index():  # put application's code here
+def index()->str:  # put application's code here
     return render_template("0-index.html")
 
 
