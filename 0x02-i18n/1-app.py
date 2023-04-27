@@ -1,3 +1,7 @@
+"""
+Then instantiate the Babel object in your app. Store it in a module-level
+variable named babel
+"""
 from flask import Flask, render_template
 from flask_babel import Babel
 
