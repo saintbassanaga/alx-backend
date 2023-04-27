@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Then instantiate the Babel object in your app. Store it in a module-level
 variable named babel
